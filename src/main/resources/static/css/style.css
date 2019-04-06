@@ -1,0 +1,54 @@
+@media(min-width: 768px) {
+	.panel-default {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	
+	.alert {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 768px) {
+	.aw-table-reflow, .aw-table-reflow thead, .aw-table-reflow tbody,
+		.aw-table-reflow th, .aw-table-reflow td, .aw-table-reflow tr {
+		display: block;
+	}
+	.aw-table-reflow td {
+		border: none !important;
+		border-bottom: 1px solid #ddd !important;
+		position: relative;
+		padding-left: 50% !important;
+		white-space: normal;
+		text-align: left;
+	}
+	.aw-table-reflow td:before {
+		content: attr(data-title);
+	}
+	.aw-table-reflow td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+	}
+}
+
+.navbar-brand {
+		padding-top: 12px;
+}
+
+.aw-link-panel {
+	float: right;
+	padding: 0px;
+}
+
+.aw-titulo-panel {
+	float: left;
+	padding-top: 2px;
+}
